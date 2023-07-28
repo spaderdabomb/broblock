@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7853331af9739c49b3adcfc044abb81, type: 3}
+  m_Name: Rock_1
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -1073675247, guid: cc9d157e7e2c8b44e94cb3ccba328955, type: 3}
+  maxSpawns: 2
+  minSpawns: 0
+  minSpacing: 0.74
+  maxSpacing: 20
+  canFlipX: 1
+  sortOrder: 3
+  offsetY: 1.61
+  vegetationType: 2

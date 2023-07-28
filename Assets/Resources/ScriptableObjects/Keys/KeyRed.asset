@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc42f0b6370158d46a385b18b2edf170, type: 3}
+  m_Name: KeyRed
+  m_EditorClassIdentifier: 
+  baseName: KeyRed
+  displayName: Red Key
+  keyType: 2
+  keyPrefab: {fileID: 2427841397067914509, guid: 9f528f6687681a84aa3692f4e6bfd922, type: 3}
+  gatePrefab: {fileID: 886849261250126044, guid: f2b9a9a6217e9b34b96d73505d60afdd, type: 3}
+  <color>k__BackingField: {r: 0.9150943, g: 0.42733178, b: 0.42733178, a: 1}

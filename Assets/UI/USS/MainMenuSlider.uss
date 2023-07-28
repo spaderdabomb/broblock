@@ -1,0 +1,10 @@
+.main-menu .unity-slider__label {
+    font-size: 26px;
+    color: rgb(251, 177, 60);
+    -unity-font-style: bold;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+    -unity-text-align: middle-left;
+    -unity-font: url('project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=ecab1bbe31534624792000c6eaff5426&type=3#NotInter-Regular');
+}

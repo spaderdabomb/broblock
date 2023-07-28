@@ -1,0 +1,339 @@
+.main-menu-button {
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuButtonBg.psd?fileID=2800000&guid=d95d9cad1fbcee043a5f4d16caea1472&type=3#MainMenuButtonBg');
+    width: 505px;
+    height: 184px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(251, 177, 60);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding-bottom: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    scale: 0.9 0.9;
+}
+
+.main-menu-button:hover {
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuButtonBg.psd?fileID=2800000&guid=d95d9cad1fbcee043a5f4d16caea1472&type=3#MainMenuButtonBg');
+    width: 505px;
+    height: 184px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(251, 177, 60);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding-bottom: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-background-image-tint-color: rgb(220, 220, 220);
+    scale: 0.95 0.95;
+}
+
+.main-menu-button:active {
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuButtonBg.psd?fileID=2800000&guid=d95d9cad1fbcee043a5f4d16caea1472&type=3#MainMenuButtonBg');
+    width: 505px;
+    height: 184px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(251, 177, 60);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding-bottom: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-background-image-tint-color: rgb(190, 190, 190);
+    scale: 0.95 0.95;
+}
+
+.main-menu-back-button {
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 45px;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuButtonBg.psd?fileID=2800000&guid=d95d9cad1fbcee043a5f4d16caea1472&type=3#MainMenuButtonBg');
+    width: 505px;
+    height: 184px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(251, 177, 60);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding-bottom: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    scale: 0.9 0.9;
+}
+
+.main-menu-back-button:hover {
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 45px;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuButtonBg.psd?fileID=2800000&guid=d95d9cad1fbcee043a5f4d16caea1472&type=3#MainMenuButtonBg');
+    width: 505px;
+    height: 184px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(251, 177, 60);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding-bottom: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-background-image-tint-color: rgb(220, 220, 220);
+    scale: 0.95 0.95;
+}
+
+.main-menu-back-button:active {
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 45px;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuButtonBg.psd?fileID=2800000&guid=d95d9cad1fbcee043a5f4d16caea1472&type=3#MainMenuButtonBg');
+    width: 505px;
+    height: 184px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(251, 177, 60);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding-bottom: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-background-image-tint-color: rgb(190, 190, 190);
+    scale: 0.95 0.95;
+}
+
+.menu-bg {
+    flex-grow: 0;
+    background-color: rgba(255, 255, 255, 0);
+    width: 759px;
+    height: 817px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 150px;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuContainerBg.psd?fileID=2800000&guid=27f4abbda12293847aeb3177c4632601&type=3#MainMenuContainerBg');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: stretch-to-fill;
+}
+
+.button-level-select {
+    font-size: 32px;
+    -unity-font-style: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.main-menu .unity-scroll-view__content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pause-menu-button {
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuButtonBg.psd?fileID=2800000&guid=d95d9cad1fbcee043a5f4d16caea1472&type=3#MainMenuButtonBg');
+    width: 505px;
+    height: 184px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(251, 177, 60);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding-bottom: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    scale: 0.8 0.8;
+}
+
+.pause-menu-button:hover {
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuButtonBg.psd?fileID=2800000&guid=d95d9cad1fbcee043a5f4d16caea1472&type=3#MainMenuButtonBg');
+    width: 505px;
+    height: 184px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(251, 177, 60);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding-bottom: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-background-image-tint-color: rgb(220, 220, 220);
+    scale: 0.85 0.85;
+}
+
+.pause-menu-button:active {
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url('project://database/Assets/Art/Sprites/Menus/MainMenuButtonBg.psd?fileID=2800000&guid=d95d9cad1fbcee043a5f4d16caea1472&type=3#MainMenuButtonBg');
+    width: 505px;
+    height: 184px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(251, 177, 60);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding-bottom: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-background-image-tint-color: rgb(190, 190, 190);
+    scale: 0.85 0.85;
+}
+
+.label-header {
+    font-size: 80px;
+    -unity-font-style: bold;
+    color: rgb(251, 177, 60);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    -unity-text-align: upper-center;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=2f8c5abcc95b68d4bae8c7ee80a622ba&type=3#NotInter-Regular');
+}
+
+.main-menu-label-header-bg {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.settings-label-value-container {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-slider .unity-label {
+}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc42f0b6370158d46a385b18b2edf170, type: 3}
+  m_Name: KeyGreen
+  m_EditorClassIdentifier: 
+  baseName: KeyGreen
+  displayName: Green Key
+  keyType: 0
+  keyPrefab: {fileID: 2427841397067914509, guid: 59ccc387a4baf2e42bbb9af44ef4cc65, type: 3}
+  gatePrefab: {fileID: 886849261250126044, guid: c3a781a26290e504283a059462a8e45d, type: 3}
+  <color>k__BackingField: {r: 0.35744926, g: 0.8490566, b: 0.26032397, a: 1}

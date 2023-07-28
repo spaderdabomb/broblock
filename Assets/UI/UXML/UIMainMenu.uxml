@@ -1,0 +1,47 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False" gen-cs-file="30cc2313acc7ca54097c39b4f5451306">
+    <Style src="project://database/Assets/UI/USS/MainMenu.uss?fileID=7433441132597879392&amp;guid=28b9235e0bfe1c949a4904f78e7ef973&amp;type=3#MainMenu" />
+    <Style src="project://database/Assets/UI/USS/MainMenuSlider.uss?fileID=7433441132597879392&amp;guid=1efe0713fd614ba48b43d0773a142b66&amp;type=3#MainMenuSlider" />
+    <ui:VisualElement name="MainContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: stretch; align-self: stretch; justify-content: flex-start; display: flex; background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuBg.psd?fileID=2800000&amp;guid=5570285620a55e347abd689e7de1532e&amp;type=3#MainMenuBg&apos;);">
+        <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuTitle.png?fileID=2800000&amp;guid=2821e24463bb57e43b26d378e071f6c1&amp;type=3#MainMenuTitle&apos;); -unity-background-scale-mode: stretch-to-fill; width: 769px; height: 130px; justify-content: center; align-items: center; align-self: center; margin-top: 50px; margin-left: 50px; margin-right: 50px; margin-bottom: 50px;" />
+        <ui:VisualElement name="MenuMain" class="menu-bg" style="display: flex; margin-top: 0; justify-content: center;">
+            <ui:VisualElement name="MenuButtonsContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-items: stretch; justify-content: center; display: flex;">
+                <ui:Button text="Settings" display-tooltip-when-elided="true" name="button-settings" class="main-menu-button unity-button" />
+                <ui:Button text="Highscores" display-tooltip-when-elided="true" name="button-highscores" class="main-menu-button" />
+                <ui:Button text="Achievements" display-tooltip-when-elided="true" name="button-achievements" class="main-menu-button" />
+                <ui:Button text="Play" display-tooltip-when-elided="true" name="button-play" class="main-menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuSettings" class="menu-bg" style="visibility: visible; display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+            <ui:VisualElement name="SettingsHeaderContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
+                <ui:VisualElement class="main-menu-label-header-bg" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuHeaderBg.psd?fileID=2800000&amp;guid=817cd0ccabba35e4b8dfecd5af8b18db&amp;type=3#MainMenuHeaderBg&apos;); width: 546px; height: 144px; -unity-background-scale-mode: scale-to-fit;">
+                    <ui:Label tabindex="-1" text="Settings" display-tooltip-when-elided="true" class="label-header" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="AudioSettingsContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/SettingsOptionsBg.psd?fileID=2800000&amp;guid=1194cb6f4aa694347b83babae937d069&amp;type=3#SettingsOptionsBg&apos;); width: 535px; height: 248px; -unity-background-scale-mode: scale-to-fit; padding-left: 30px; padding-right: 30px; padding-top: 30px; padding-bottom: 45px;">
+                <ui:Slider picking-mode="Ignore" label="MASTER" value="42" high-value="1" direction="Horizontal" show-input-field="false" name="sliderMasterVolume" class="main-menu" style="flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+                <ui:Slider picking-mode="Ignore" label="MUSIC" value="42" high-value="1" direction="Horizontal" show-input-field="false" name="sliderMusicVolume" class="main-menu" style="flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+                <ui:Slider picking-mode="Ignore" label="SFX" value="42" high-value="1" direction="Horizontal" show-input-field="false" name="sliderSFXVolume" class="main-menu" style="flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            </ui:VisualElement>
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="button-settings-back" class="main-menu-back-button" style="flex-grow: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuAchievements" class="menu-bg" style="visibility: visible; display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
+                <ui:Label tabindex="-1" text="Achievements" display-tooltip-when-elided="true" class="label-header" />
+            </ui:VisualElement>
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="button-achievements-back" class="main-menu-button main-menu-back-button" style="flex-grow: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuHighscores" class="menu-bg" style="visibility: visible; display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
+                <ui:Label tabindex="-1" text="Highscores" display-tooltip-when-elided="true" class="label-header" />
+            </ui:VisualElement>
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="button-highscores-back" class="main-menu-button main-menu-back-button" style="flex-grow: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuLevelSelect" class="menu-bg" style="visibility: visible; display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
+                <ui:Label tabindex="-1" text="Select Level" display-tooltip-when-elided="true" class="label-header" />
+            </ui:VisualElement>
+            <ui:ScrollView name="scrollview-level-select" class="unitycontentcontainer main-menu" style="width: 600px; height: 500px; flex-direction: column-reverse;" />
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="button-level-select-back" class="main-menu-button main-menu-back-button" style="flex-grow: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

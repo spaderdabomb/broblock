@@ -1,0 +1,65 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False" gen-cs-namespace="GameUI" gen-cs-file="3189b729845e92149ab49908774fbb45">
+    <Style src="project://database/Assets/UI/USS/MainMenu.uss?fileID=7433441132597879392&amp;guid=28b9235e0bfe1c949a4904f78e7ef973&amp;type=3#MainMenu" />
+    <ui:VisualElement name="TopLeftContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); -unity-background-scale-mode: stretch-to-fill; align-items: flex-start; align-self: stretch; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; display: flex; transition-property: all; transition-duration: 0s; transition-timing-function: ease; transition-delay: 0s;">
+        <ui:VisualElement name="HealthContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: flex-start; align-self: stretch; align-items: center;">
+            <ui:VisualElement name="Heart" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Common%20Sprites/heart.psd?fileID=2800000&amp;guid=dbdacf203aa019d49a90857c10a449a8&amp;type=3#heart&apos;); -unity-background-scale-mode: scale-to-fit; width: 50px; height: 50px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" />
+            <ui:VisualElement name="HealthBar" style="flex-grow: 0; background-color: rgb(245, 82, 82); height: 20px; width: 200px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ThrowPowerContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-self: auto; align-items: center;">
+            <ui:VisualElement name="ThrowPowerIcon" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Common%20Sprites/LightningIcon.psd?fileID=2800000&amp;guid=10ce4d4ed1740344ca3f78a8832b06f6&amp;type=3#LightningIcon&apos;); -unity-background-scale-mode: scale-to-fit; width: 50px; height: 50px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" />
+            <ui:VisualElement name="ThrowPowerBar" style="flex-grow: 0; background-color: rgb(245, 213, 82); height: 20px; width: 200px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="KeyContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: flex-start;">
+            <ui:VisualElement name="KeySlot1" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Keys/KeyWhite.png?fileID=2800000&amp;guid=5be798193292b7a46b4195a097866f58&amp;type=3#KeyWhite&apos;); width: 50px; height: 50px; margin-left: 10px; margin-right: 0; margin-top: 10px; margin-bottom: 10px; -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);" />
+            <ui:VisualElement name="KeySlot2" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Keys/KeyWhite.png?fileID=2800000&amp;guid=5be798193292b7a46b4195a097866f58&amp;type=3#KeyWhite&apos;); width: 50px; height: 50px; margin-left: 10px; margin-right: 0; margin-top: 10px; margin-bottom: 10px; -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);" />
+            <ui:VisualElement name="KeySlot3" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Keys/KeyWhite.png?fileID=2800000&amp;guid=5be798193292b7a46b4195a097866f58&amp;type=3#KeyWhite&apos;); width: 50px; height: 50px; margin-left: 10px; margin-right: 0; margin-top: 10px; margin-bottom: 10px; -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);" />
+            <ui:VisualElement name="KeySlot4" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Keys/KeyWhite.png?fileID=2800000&amp;guid=5be798193292b7a46b4195a097866f58&amp;type=3#KeyWhite&apos;); width: 50px; height: 50px; margin-left: 10px; margin-right: 0; margin-top: 10px; margin-bottom: 10px; -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);" />
+            <ui:VisualElement name="KeySlot5" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Keys/KeyWhite.png?fileID=2800000&amp;guid=5be798193292b7a46b4195a097866f58&amp;type=3#KeyWhite&apos;); width: 50px; height: 50px; margin-left: 10px; margin-right: 0; margin-top: 10px; margin-bottom: 10px; -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="MenuContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: center; align-items: center; justify-content: center; display: none; position: absolute; flex-shrink: 0; flex-basis: auto; width: 1920px; height: 1080px;">
+        <ui:VisualElement name="MenuPause" class="menu-bg" style="display: flex; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); display: none;">
+                <ui:Label tabindex="-1" text="Pause" display-tooltip-when-elided="true" class="label-header" />
+                <ui:VisualElement style="flex-grow: 0; background-color: rgb(230, 230, 230); height: 1px; width: 500px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PauseButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); margin-top: 50px; margin-bottom: 60px; align-self: center; justify-content: space-around;">
+                <ui:Button text="Resume" display-tooltip-when-elided="true" name="ButtonResume" class="pause-menu-button" />
+                <ui:Button text="Restart" display-tooltip-when-elided="true" name="ButtonRestart" class="pause-menu-button" />
+                <ui:Button text="Settings" display-tooltip-when-elided="true" name="ButtonSettings" class="pause-menu-button" />
+                <ui:Button text="MainMenu" display-tooltip-when-elided="true" name="ButtonMainMenu" class="pause-menu-button" />
+                <ui:Button text="Quit" display-tooltip-when-elided="true" name="ButtonQuit" class="pause-menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuSettings" class="menu-bg" style="display: none;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Label tabindex="-1" text="Settings" display-tooltip-when-elided="true" class="label-header" />
+                <ui:VisualElement style="flex-grow: 0; background-color: rgb(230, 230, 230); height: 1px; width: 500px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="SettingsButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="ButtonBack" enable-rich-text="true" class="main-menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuWin" class="menu-bg" style="display: none;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Label tabindex="-1" text="Level Won!" display-tooltip-when-elided="true" class="label-header" />
+                <ui:VisualElement style="flex-grow: 0; background-color: rgb(230, 230, 230); height: 1px; width: 500px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="WinButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
+                <ui:Button text="Next Level" display-tooltip-when-elided="true" name="ButtonWinNextLevel" class="main-menu-button" />
+                <ui:Button text="Replay" display-tooltip-when-elided="true" name="ButtonWinReplay" class="main-menu-button" />
+                <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="ButtonWinMainMenu" class="main-menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuLose" class="menu-bg" style="display: none;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Label tabindex="-1" text="You Lose!" display-tooltip-when-elided="true" class="label-header" />
+                <ui:VisualElement style="flex-grow: 0; background-color: rgb(230, 230, 230); height: 1px; width: 500px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="LoseButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
+                <ui:Button text="Replay" display-tooltip-when-elided="true" name="ButtonLoseReplay" class="main-menu-button" />
+                <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="ButtonLoseMainMenu" class="main-menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

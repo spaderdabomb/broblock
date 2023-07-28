@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Button text="Settings" display-tooltip-when-elided="true" name="button-settings" class="main-menu-button" style="font-size: 45px; -unity-font-style: bold;" />
+</ui:UXML>
