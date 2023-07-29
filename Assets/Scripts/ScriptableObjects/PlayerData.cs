@@ -10,6 +10,7 @@ public class PlayerData : ScriptableObject
     [SerializeField] public float healthBase = 100f;
     [SerializeField] public float throwPowerBase = 10f;
     [SerializeField] public float throwPowerIncreaseRate = 2.5f;
+    [SerializeField] public float playerForceThres = 5f;
 
     // Health
     [SerializeField, ReadOnly] private float healthCurrent = 100f;

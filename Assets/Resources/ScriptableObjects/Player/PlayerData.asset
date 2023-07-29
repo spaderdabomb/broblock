@@ -15,5 +15,7 @@ MonoBehaviour:
   healthBase: 100
   throwPowerBase: 20
   throwPowerIncreaseRate: 15
-  healthCurrent: 100
+  playerForceThres: 10
+  healthCurrent: 50.56237
   throwPowerCurrent: 0
+  currentMoveState: 0

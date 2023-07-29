@@ -66,7 +66,6 @@ namespace GameUI
 
         public void OnGeometryChangedFirstPass()
         {
-            Debug.Log(throwPowerBar.resolvedStyle.width);
             healthBarBaseWidth = healthBar.resolvedStyle.width;
             throwPowerBarBaseWidth = throwPowerBar.resolvedStyle.width;
             UIManager.Instance.playerData.ThrowPowerCurrent = 0f;

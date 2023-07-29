@@ -22,7 +22,6 @@ partial class UIMainMenu
     private Slider sliderSFXVolume;
     private Button buttonSettingsBack;
     private VisualElement menuAchievements;
-    private VisualElement visualElement;
     private Button buttonAchievementsBack;
     private VisualElement menuHighscores;
     private Button buttonHighscoresBack;
@@ -47,7 +46,6 @@ partial class UIMainMenu
         sliderSFXVolume = root.Q<Slider>("sliderSFXVolume");
         buttonSettingsBack = root.Q<Button>("button-settings-back");
         menuAchievements = root.Q<VisualElement>("MenuAchievements");
-        visualElement = root.Q<VisualElement>("VisualElement");
         buttonAchievementsBack = root.Q<Button>("button-achievements-back");
         menuHighscores = root.Q<VisualElement>("MenuHighscores");
         buttonHighscoresBack = root.Q<Button>("button-highscores-back");

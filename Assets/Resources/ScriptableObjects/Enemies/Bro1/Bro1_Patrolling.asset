@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29547dbdacec4564bab54c872071ed48, type: 3}
+  m_Name: Bro1_Patrolling
+  m_EditorClassIdentifier: 
+  type: BroPatrolling_1
+  health: 5
+  damageForceThreshold: 10
+  canWalk: 1
+  canSprint: 0
+  canJump: 0
+  walkSpeed: 3
+  sprintSpeed: 0
+  jumpSpeed: 0
+  throwMinSpeed: 15
+  throwMaxSpeed: 20
+  stateChangeTimerMin: 3
+  stateChangeTimerMax: 5
+  enemyCombatStates: 02000000
+  beerPrefab: {fileID: 7886355936666207562, guid: a23a0aceb6c296a45a80c610580fd1fa, type: 3}
+  healthCurrent: 0
+  currentMoveState: 0
+  currentCombatState: 0

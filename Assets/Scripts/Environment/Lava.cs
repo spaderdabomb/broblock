@@ -17,4 +17,9 @@ public class Lava : MonoBehaviour
     {
         transform.position += new Vector3(0f, baseSpeed * Time.deltaTime, 0f);
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        collision.collider?.GetComponent<SpawnedBlock>()?.DamageBlock(1f);
+    }
 }

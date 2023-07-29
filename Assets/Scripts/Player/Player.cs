@@ -149,7 +149,19 @@ public class Player : MonoBehaviour, PlayerInput.IUtilityMapActions
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.GetComponent<Throwable>() != null)
+        {
+            // Get the other Rigidbody2D involved in the collision
+            Rigidbody2D otherRb = collision.gameObject.GetComponent<Rigidbody2D>();
+            Vector2 relativeVelocity = collision.relativeVelocity;
+            float forceMagnitude = relativeVelocity.magnitude * otherRb.mass;
 
+            if (forceMagnitude >= playerData.playerForceThres)
+            {
+                DamagePlayer(forceMagnitude);
+                Destroy(collision.gameObject);
+            }
+        }
     }
 
     public void OnCollisionStay2D(Collision2D collision)
@@ -158,5 +170,10 @@ public class Player : MonoBehaviour, PlayerInput.IUtilityMapActions
         {
             DamagePlayer(1f);
         }
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+
     }
 }

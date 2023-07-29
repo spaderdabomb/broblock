@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[DefaultExecutionOrder(-100)]
 public class BootManager : MonoBehaviour
 {
     public static BootManager Instance;
@@ -11,26 +12,30 @@ public class BootManager : MonoBehaviour
     [SerializeField] private GameObject debugManager;
     [SerializeField] private GameObject audioManager;
 
+    public GameObject spawnedDataManager;
+    public GameObject spawnedInputManager;
+    public GameObject spawnedDebugManager;
+    public GameObject spawnedaudioManager;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            InstantiateManagers();
         }
         else
         {
             Destroy(gameObject);
         }
-
-        InstantiateManagers();
     }
 
     private void InstantiateManagers()
     {
-        GameObject spawnedDataManager = Instantiate(dataManager);
-        GameObject spawnedInputManager = Instantiate(inputManager);
-        GameObject spawnedDebugManager = Instantiate(debugManager);
-        GameObject spawnedaudioManager = Instantiate(audioManager);
+        spawnedDataManager = Instantiate(dataManager);
+        spawnedInputManager = Instantiate(inputManager);
+        spawnedDebugManager = Instantiate(debugManager);
+        spawnedaudioManager = Instantiate(audioManager);
     }
 }

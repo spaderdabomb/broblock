@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0948fc36363fdf34c98d08103f3ec5be, type: 3}
   m_Name: Level001
   m_EditorClassIdentifier: 
-  numBigPlatforms: 50
-  gateDensityBigPlatforms: 1
+  numBigPlatforms: 10
+  gateDensityBigPlatforms: 2
   numSmallPlatforms: 100
   enemyDensity: 1
-  lavaSpeed: 0
+  lavaSpeed: 1

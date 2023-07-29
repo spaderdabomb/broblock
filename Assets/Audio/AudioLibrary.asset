@@ -14,15 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundCategories:
   - 
+  - Bruhs
   musicCategories:
   - 
   Sounds:
   - {fileID: 11400000, guid: 7f55e02fabfaa29448cdef59b90921c1, type: 2}
   - {fileID: 11400000, guid: 23b85da2ce71e8048b934e97b8afda06, type: 2}
+  - {fileID: 11400000, guid: 35e64df187c310c459e544f0ecc3e0e5, type: 2}
+  - {fileID: 11400000, guid: 9ece489c8f7a5ac4d991c7fbbb57d4e2, type: 2}
+  - {fileID: 11400000, guid: 4ec2c0c0508ce7d419d1feb74a42a9bd, type: 2}
+  - {fileID: 11400000, guid: 0aaea27aeaab9884d8dce635e67d0939, type: 2}
+  - {fileID: 11400000, guid: 8c3fe927bb1efc642a563da10262c44c, type: 2}
   Music:
   - {fileID: 11400000, guid: f63df4c15dd0734488e99ddd91eb15f6, type: 2}
   - {fileID: 11400000, guid: 8841427f35f71454ca45386dd6a5824d, type: 2}
-  useCustomNames: 0
+  useCustomNames: 1
   generatedName: AudioLibrary
   musicEnum: AudioLibraryMusic
   musicEnumGenerated: AudioLibraryMusic
@@ -37,6 +43,14 @@ MonoBehaviour:
     files:
     - {fileID: 11400000, guid: 7f55e02fabfaa29448cdef59b90921c1, type: 2}
     - {fileID: 11400000, guid: 23b85da2ce71e8048b934e97b8afda06, type: 2}
+    foldout: 1
+  - name: Bruhs
+    files:
+    - {fileID: 11400000, guid: 35e64df187c310c459e544f0ecc3e0e5, type: 2}
+    - {fileID: 11400000, guid: 9ece489c8f7a5ac4d991c7fbbb57d4e2, type: 2}
+    - {fileID: 11400000, guid: 4ec2c0c0508ce7d419d1feb74a42a9bd, type: 2}
+    - {fileID: 11400000, guid: 0aaea27aeaab9884d8dce635e67d0939, type: 2}
+    - {fileID: 11400000, guid: 8c3fe927bb1efc642a563da10262c44c, type: 2}
     foldout: 1
   musicCategoriesToList:
   - name: 

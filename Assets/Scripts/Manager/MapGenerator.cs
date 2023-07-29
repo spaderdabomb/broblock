@@ -33,6 +33,8 @@ public class MapGenerator : MonoBehaviour
 
     [Header("Enemies")]
     [SerializeField] private float enemyYOffset = 8f;
+    [SerializeField] private float minSpawnPositionX = -8f;
+    [SerializeField] private float maxSpawnPositionX = 8f;
 
     private int numBigPlatforms;
     private int gateDensityBigPlatforms = 5;
@@ -197,7 +199,7 @@ public class MapGenerator : MonoBehaviour
 
     private GameObject GenerateGateEnemies(GameObject gate)
     {
-        Vector2 spawnPosition = new Vector2(UnityEngine.Random.Range(-levelWidth / 2 + 1f, levelWidth / 2 - 1f), gate.transform.position.y - enemyYOffset);
+        Vector2 spawnPosition = new Vector2(UnityEngine.Random.Range(minSpawnPositionX, maxSpawnPositionX), gate.transform.position.y - enemyYOffset);
         int randomEnemyIndex = UnityEngine.Random.Range(0, GameManager.Instance.enemyPrefabs.Length);
         GameObject randomEnemy = GameManager.Instance.enemyPrefabs[randomEnemyIndex];
         GameObject spawnedEnemy = Instantiate(randomEnemy, spawnPosition, Quaternion.identity, enemyContainer.transform);

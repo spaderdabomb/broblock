@@ -7,7 +7,7 @@ using UnityEngine.Events;
 [CreateAssetMenu(fileName = "Enemy", menuName = "BroBlock/Enemy", order = 1)]
 public class Enemy : ScriptableObject
 {
-    public string type;
+    public EnemyType type;
     public float health;
     public float damageForceThreshold;
     public bool canWalk;
@@ -16,10 +16,15 @@ public class Enemy : ScriptableObject
     public float walkSpeed;
     public float sprintSpeed;
     public float jumpSpeed;
+    public float throwMinSpeed = 5f;
+    public float throwMaxSpeed = 10f;
 
     public float stateChangeTimerMin = 5f;
     public float stateChangeTimerMax = 10f;
     public EnemyCombatState[] enemyCombatStates;
+
+    [Header("Throwables")]
+    public GameObject beerPrefab;
 
     // Health
     [SerializeField, ReadOnly] private float healthCurrent;
@@ -95,5 +100,13 @@ public enum EnemyCombatState
     None,
     Idling,
     Patrolling,
-    PlayerFollow
+    PlayerFollow,
+    Throwing,
+    Punching
+}
+
+public enum EnemyType
+{
+    Bro1,
+    Bro2
 }

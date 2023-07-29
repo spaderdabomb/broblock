@@ -48,6 +48,10 @@ public class EnemyAnimation : MonoBehaviour
         {
             animator.SetTrigger(EnemyAnimationNames.Idling);
         }
+        else if (newCombatState == EnemyCombatState.Throwing)
+        {
+            animator.SetTrigger(EnemyAnimationNames.Throwing);
+        }
     }
 
     public static class EnemyAnimationNames
@@ -55,6 +59,7 @@ public class EnemyAnimation : MonoBehaviour
         public static string Idling = "transitionToIdling";
         public static string Patrolling = "transitionToPatrolling";
         public static string PlayerFollowing = "transitionToPlayerFollowing";
+        public static string Throwing = "transitionToThrowing";
 
     }
 }

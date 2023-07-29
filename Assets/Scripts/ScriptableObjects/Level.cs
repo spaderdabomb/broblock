@@ -9,5 +9,5 @@ public class Level : ScriptableObject
     public int gateDensityBigPlatforms;
     public int numSmallPlatforms;
     public int enemyDensity;
-    public int lavaSpeed;
+    public float lavaSpeed;
 }

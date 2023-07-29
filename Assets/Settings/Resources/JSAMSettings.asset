@@ -24,7 +24,7 @@ MonoBehaviour:
   stopSoundsOnSceneLoad: 0
   spatializeLateUpdate: 0
   spatializationMode: 0
-  timeScaledSounds: 1
+  timeScaledSounds: 0
   mixer: {fileID: 0}
   masterGroup: {fileID: 0}
   musicGroup: {fileID: 0}

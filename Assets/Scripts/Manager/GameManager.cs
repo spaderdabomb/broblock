@@ -9,15 +9,19 @@ using Unity.Collections;
 using GameUI;
 using JSAM;
 
-[DefaultExecutionOrder(-50)]
+[DefaultExecutionOrder(-150)]
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    [SerializeField] public Player player;
     [field: SerializeField] public GameObject GroundContainer { get; private set; }
     [field: SerializeField] public GameObject KeyContainer { get; private set; }
     [field: SerializeField] public LevelData levelData { get; private set; }
     [field: SerializeField] public PlayerData playerData { get; private set; }
+
+    [SerializeField] private List<Enemy> listOfEnemies;
+    public Dictionary<EnemyType, List<Enemy>> EnemyDict { get; private set; } = new();
 
     public Dictionary<KeyType, int> keyDictionary = new();
 
@@ -36,6 +40,9 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
 
+        Time.timeScale = 1.0f;
+        previousTimeScale = Time.timeScale;
+
         foreach (KeyType key in Enum.GetValues(typeof(KeyType)))
         {
             keyDictionary.Add(key, 0);
@@ -46,12 +53,33 @@ public class GameManager : MonoBehaviour
         keyPrefabs = Resources.LoadAll<GameObject>("Prefabs/Keys");
 
         playerData.InitDefaults();
+        CreateEnemyDict();
     }
 
-    void Start()
+    private void CreateEnemyDict()
     {
-        Time.timeScale = 1f;
-        previousTimeScale = Time.timeScale;
+        foreach (Enemy enemy in listOfEnemies)
+        {
+            if (EnemyDict.ContainsKey(enemy.type))
+            {
+                EnemyDict[enemy.type].Add(enemy);
+            }
+            else
+            {
+                List<Enemy> enemyList = new List<Enemy> { enemy };
+                EnemyDict.Add(enemy.type, enemyList);
+            }
+        }
+
+    }
+
+    private void OnEnable()
+    {
+    }
+
+    private void OnDisable()
+    {
+
     }
 
     void Update()
@@ -137,8 +165,10 @@ public class GameManager : MonoBehaviour
 
     public void StartMusic()
     {
+        AudioManager.StopMusic(AudioLibraryMusic.FullSpeed);
         AudioManager.StopMusic(AudioLibraryMusic.Upbeat_Intense);
         AudioManager.PlayMusic(AudioLibraryMusic.FullSpeed);
+
         musicStart = true;
     }
 }

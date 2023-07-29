@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: BlockDirt
   m_EditorClassIdentifier: 
   type: Dirt
-  health: 500
+  health: 100

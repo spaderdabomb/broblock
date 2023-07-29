@@ -14,7 +14,7 @@
         <ui:VisualElement name="MenuSettings" class="menu-bg" style="visibility: visible; display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
             <ui:VisualElement name="SettingsHeaderContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
                 <ui:VisualElement class="main-menu-label-header-bg" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuHeaderBg.psd?fileID=2800000&amp;guid=817cd0ccabba35e4b8dfecd5af8b18db&amp;type=3#MainMenuHeaderBg&apos;); width: 546px; height: 144px; -unity-background-scale-mode: scale-to-fit;">
-                    <ui:Label tabindex="-1" text="Settings" display-tooltip-when-elided="true" class="label-header" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                    <ui:Label tabindex="-1" text="SETTINGS" display-tooltip-when-elided="true" class="label-header" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
                 </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="AudioSettingsContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/SettingsOptionsBg.psd?fileID=2800000&amp;guid=1194cb6f4aa694347b83babae937d069&amp;type=3#SettingsOptionsBg&apos;); width: 535px; height: 248px; -unity-background-scale-mode: scale-to-fit; padding-left: 30px; padding-right: 30px; padding-top: 30px; padding-bottom: 45px;">
@@ -25,22 +25,28 @@
             <ui:Button text="Back" display-tooltip-when-elided="true" name="button-settings-back" class="main-menu-back-button" style="flex-grow: 0;" />
         </ui:VisualElement>
         <ui:VisualElement name="MenuAchievements" class="menu-bg" style="visibility: visible; display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
-            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
-                <ui:Label tabindex="-1" text="Achievements" display-tooltip-when-elided="true" class="label-header" />
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
+                <ui:VisualElement class="main-menu-label-header-bg" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuHeaderBg.psd?fileID=2800000&amp;guid=817cd0ccabba35e4b8dfecd5af8b18db&amp;type=3#MainMenuHeaderBg&apos;); width: 546px; height: 144px; -unity-background-scale-mode: scale-to-fit;">
+                    <ui:Label tabindex="-1" text="ACHIEVEMENTS" display-tooltip-when-elided="true" class="label-header" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 55px;" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:Button text="Back" display-tooltip-when-elided="true" name="button-achievements-back" class="main-menu-button main-menu-back-button" style="flex-grow: 0;" />
         </ui:VisualElement>
         <ui:VisualElement name="MenuHighscores" class="menu-bg" style="visibility: visible; display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
             <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
-                <ui:Label tabindex="-1" text="Highscores" display-tooltip-when-elided="true" class="label-header" />
+                <ui:VisualElement class="main-menu-label-header-bg" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuHeaderBg.psd?fileID=2800000&amp;guid=817cd0ccabba35e4b8dfecd5af8b18db&amp;type=3#MainMenuHeaderBg&apos;); width: 546px; height: 144px; -unity-background-scale-mode: scale-to-fit;">
+                    <ui:Label tabindex="-1" text="HIGHSCORES" display-tooltip-when-elided="true" class="label-header" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:Button text="Back" display-tooltip-when-elided="true" name="button-highscores-back" class="main-menu-button main-menu-back-button" style="flex-grow: 0;" />
         </ui:VisualElement>
         <ui:VisualElement name="MenuLevelSelect" class="menu-bg" style="visibility: visible; display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
             <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
-                <ui:Label tabindex="-1" text="Select Level" display-tooltip-when-elided="true" class="label-header" />
+                <ui:VisualElement class="main-menu-label-header-bg" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuHeaderBg.psd?fileID=2800000&amp;guid=817cd0ccabba35e4b8dfecd5af8b18db&amp;type=3#MainMenuHeaderBg&apos;); width: 546px; height: 144px; -unity-background-scale-mode: scale-to-fit;">
+                    <ui:Label tabindex="-1" text="LEVELS" display-tooltip-when-elided="true" class="label-header" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                </ui:VisualElement>
             </ui:VisualElement>
-            <ui:ScrollView name="scrollview-level-select" class="unitycontentcontainer main-menu" style="width: 600px; height: 500px; flex-direction: column-reverse;" />
+            <ui:ScrollView name="scrollview-level-select" mode="Vertical" focusable="false" class="unitycontentcontainer main-menu" style="width: 600px; height: 380px; flex-direction: column-reverse; justify-content: center; align-self: center; align-items: center; padding-bottom: 10px; margin-bottom: 0; margin-top: 0; margin-left: 0; margin-right: 0; padding-top: 10px; padding-left: 0; padding-right: 0;" />
             <ui:Button text="Back" display-tooltip-when-elided="true" name="button-level-select-back" class="main-menu-button main-menu-back-button" style="flex-grow: 0;" />
         </ui:VisualElement>
     </ui:VisualElement>

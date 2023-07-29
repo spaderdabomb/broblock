@@ -24,18 +24,14 @@ public class GridManager : MonoBehaviour
         bool blockIsPlaceable = true;
         Collider2D col = Physics2D.OverlapBox(position, new Vector2(gridSpacing / 4f, gridSpacing / 4f), 0f, blockLayerMask);
 
-/*        if (col != null)
+        if (col != null)
         {
-            print(col.gameObject);
-
             blockIsPlaceable = false;
-        }*/
+        }
 
 
         if (player.boxCheckCol.bounds.Contains(position))
         {
-            print("hit player");
-
             blockIsPlaceable = false;
         }
 

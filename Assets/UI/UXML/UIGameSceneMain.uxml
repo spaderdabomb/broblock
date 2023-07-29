@@ -17,8 +17,8 @@
             <ui:VisualElement name="KeySlot5" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Keys/KeyWhite.png?fileID=2800000&amp;guid=5be798193292b7a46b4195a097866f58&amp;type=3#KeyWhite&apos;); width: 50px; height: 50px; margin-left: 10px; margin-right: 0; margin-top: 10px; margin-bottom: 10px; -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);" />
         </ui:VisualElement>
     </ui:VisualElement>
-    <ui:VisualElement name="MenuContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: center; align-items: center; justify-content: center; display: none; position: absolute; flex-shrink: 0; flex-basis: auto; width: 1920px; height: 1080px;">
-        <ui:VisualElement name="MenuPause" class="menu-bg" style="display: flex; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+    <ui:VisualElement name="MenuContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: center; align-items: center; justify-content: center; display: flex; position: absolute; flex-shrink: 0; flex-basis: auto; width: 1920px; height: 1080px;">
+        <ui:VisualElement name="MenuPause" class="menu-bg" style="display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
             <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); display: none;">
                 <ui:Label tabindex="-1" text="Pause" display-tooltip-when-elided="true" class="label-header" />
                 <ui:VisualElement style="flex-grow: 0; background-color: rgb(230, 230, 230); height: 1px; width: 500px;" />
@@ -31,19 +31,21 @@
                 <ui:Button text="Quit" display-tooltip-when-elided="true" name="ButtonQuit" class="pause-menu-button" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="MenuSettings" class="menu-bg" style="display: none;">
-            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-                <ui:Label tabindex="-1" text="Settings" display-tooltip-when-elided="true" class="label-header" />
-                <ui:VisualElement style="flex-grow: 0; background-color: rgb(230, 230, 230); height: 1px; width: 500px;" />
+        <ui:VisualElement name="MenuSettings" class="menu-bg" style="display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-bottom: 40px;">
+            <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
+                <ui:VisualElement class="main-menu-label-header-bg" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuHeaderBg.psd?fileID=2800000&amp;guid=817cd0ccabba35e4b8dfecd5af8b18db&amp;type=3#MainMenuHeaderBg&apos;); width: 546px; height: 144px; justify-content: center;">
+                    <ui:Label tabindex="-1" text="SETTINGS" display-tooltip-when-elided="true" class="label-header" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="SettingsButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
                 <ui:Button text="Back" display-tooltip-when-elided="true" name="ButtonBack" enable-rich-text="true" class="main-menu-button" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="MenuWin" class="menu-bg" style="display: none;">
-            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-                <ui:Label tabindex="-1" text="Level Won!" display-tooltip-when-elided="true" class="label-header" />
-                <ui:VisualElement style="flex-grow: 0; background-color: rgb(230, 230, 230); height: 1px; width: 500px;" />
+        <ui:VisualElement name="MenuWin" class="menu-bg" style="display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-bottom: 40px;">
+            <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
+                <ui:VisualElement class="main-menu-label-header-bg" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuHeaderBg.psd?fileID=2800000&amp;guid=817cd0ccabba35e4b8dfecd5af8b18db&amp;type=3#MainMenuHeaderBg&apos;); width: 546px; height: 144px; justify-content: center;">
+                    <ui:Label tabindex="-1" text="LEVEL WON!" display-tooltip-when-elided="true" class="label-header" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="WinButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
                 <ui:Button text="Next Level" display-tooltip-when-elided="true" name="ButtonWinNextLevel" class="main-menu-button" />
@@ -51,10 +53,11 @@
                 <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="ButtonWinMainMenu" class="main-menu-button" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="MenuLose" class="menu-bg" style="display: none;">
-            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-                <ui:Label tabindex="-1" text="You Lose!" display-tooltip-when-elided="true" class="label-header" />
-                <ui:VisualElement style="flex-grow: 0; background-color: rgb(230, 230, 230); height: 1px; width: 500px;" />
+        <ui:VisualElement name="MenuLose" class="menu-bg" style="display: none; padding-bottom: 40px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+            <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-items: center;">
+                <ui:VisualElement class="main-menu-label-header-bg" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Sprites/Menus/MainMenuHeaderBg.psd?fileID=2800000&amp;guid=817cd0ccabba35e4b8dfecd5af8b18db&amp;type=3#MainMenuHeaderBg&apos;); width: 546px; height: 144px; justify-content: center;">
+                    <ui:Label tabindex="-1" text="YOU LOSE" display-tooltip-when-elided="true" class="label-header" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="LoseButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
                 <ui:Button text="Replay" display-tooltip-when-elided="true" name="ButtonLoseReplay" class="main-menu-button" />
